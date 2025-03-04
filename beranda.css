@@ -1,0 +1,152 @@
+*{
+    margin:0;
+}
+#header{
+    width:100%;
+    height:150px;
+    background-color:darkblue;
+    position:fixed;
+    z-index:2;
+}
+#nama{
+    color:white;
+    padding:20px;
+}
+#menubar{
+    width:100%;
+    height:60px;
+    background-color:black;
+}
+.menu{
+    color:white;
+    width:130px;
+    list-style:none;
+    text-align:center;
+}
+#dafmen{
+    display:inline-flex;
+    margin-top:20px;
+}
+.menu:hover{
+    background-color:yellow;
+    color:black;
+    border-radius:5px;
+    cursor:pointer;
+}
+#menu-artikel{
+    display:none;
+}
+.menu:hover #menu-artikel{
+    display:block;
+    margin-left:-40px;
+}
+.artikel{
+    list-style:none;
+    padding-top:10px;
+    padding:10;
+}
+.artikel:hover{
+    background-color:darkgoldenrod;
+    border-radius:5px;
+    padding:10px;
+    color:white;
+}
+#nama{
+  font-family: "Shadows Into Light", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#menu-sosmed{
+    display:none;
+}
+.menu:hover #menu-sosmed{
+    display:block;
+    margin-left:-40px;
+}
+.sosmed{
+    list-style:none;
+    padding-top:10px;
+    padding:10px;
+}
+.sosmed:hover{
+    background-color:darkgoldenrod;
+    border-radius:5px;
+    padding:10px;
+    color:white;
+}
+#content{
+    width:100%;
+    height:10000px;
+   /* background-color:darkgreen;*/
+    display:flex;
+}
+#side-menu{
+    width:20%;
+    height:700px;
+    /*background-color:blue;*/
+}
+#isi{
+    width:80%;
+    height:700px;
+    /*background-color:rebeccapurple;*/
+}
+#atas{
+    width:100%;
+    height:200px;
+    /*background-color:red;*/
+    display:flex;
+    justify-content:space-around;
+}
+#bawah{
+    width:100%;
+    height:500px;
+    /*background-color:mediumseagreen;*/
+    display:flex;
+    justify-content:space-around;
+}
+.aha{
+    width:10%;
+    height:150px;
+   /* background-color:darkcyan;*/
+    margin-top:22px;
+    border-top-left-radius:50%;
+    border-bottom-left-radius:50%;
+    border-top-right-radius:50%;
+    border-bottom-right-radius:50%;
+}
+.ehe{
+    width:40%;
+    height:380px;
+   /* background-color:green;*/
+    margin-top:40px;
+}
+.pct{
+    width:100%;
+    height:150px;
+    border-top-left-radius:50%;
+    border-bottom-left-radius:50%;
+    border-top-right-radius:50%;
+    border-bottom-right-radius:50%;
+}
+.vid{
+    width:100%;
+    height:380px;
+}
+.gambar{
+    width: 70%;
+    height: 300px;
+ /*   background-color: gray;*/
+    margin: auto;
+    display: flex;
+    padding-top: 20;
+}
+.kreatif{
+    width: 80%;
+    height: 400px;
+   /* background-color: chartreuse;*/
+    margin: auto;
+}
+.mc{
+    margin: auto;
+    padding-bottom: 150;
+}
